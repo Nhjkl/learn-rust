@@ -1,3 +1,8 @@
+#![allow(unused)]
+mod demo;
+
 fn main() {
-    println!("Hello, world!");
+    // demo::data_type::run();
+    // demo::functions::run();
+    demo::control_flow::run();
 }
