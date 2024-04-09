@@ -5,5 +5,6 @@ mod utils;
 fn main() {
     // demo::data_type::run();
     // demo::functions::run();
-    demo::owenrship::run();
+    // demo::owenrship::run();
+    demo::r#struct::run();
 }
