@@ -7,5 +7,6 @@ fn main() {
     // demo::functions::run();
     // demo::owenrship::run();
     // demo::r#struct::run();
-    demo::enums::run();
+    // demo::enums::run();
+    demo::enums_option::run();
 }
