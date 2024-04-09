@@ -8,5 +8,6 @@ fn main() {
     // demo::owenrship::run();
     // demo::r#struct::run();
     // demo::enums::run();
-    demo::enums_option::run();
+    // demo::enums_option::run();
+    demo::if_let::run();
 }
