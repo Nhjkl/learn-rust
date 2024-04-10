@@ -10,5 +10,6 @@ fn main() {
     // demo::enums::run();
     // demo::enums_option::run();
     // demo::if_let::run();
-    demo::collection_vector::run();
+    // demo::collection_vector::run();
+    demo::string::run();
 }
