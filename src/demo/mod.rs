@@ -5,6 +5,7 @@ pub mod enums;
 pub mod enums_option;
 pub mod error_handling;
 pub mod functions;
+pub mod generic;
 pub mod hash_map;
 pub mod if_let;
 pub mod owenrship;

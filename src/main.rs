@@ -13,5 +13,6 @@ fn main() {
     // demo::collection_vector::run();
     // demo::string::run();
     // demo::hash_map::run();
-    demo::error_handling::run();
+    // demo::error_handling::run();
+    demo::generic::run();
 }
