@@ -9,5 +9,6 @@ fn main() {
     // demo::r#struct::run();
     // demo::enums::run();
     // demo::enums_option::run();
-    demo::if_let::run();
+    // demo::if_let::run();
+    demo::collection_vector::run();
 }
