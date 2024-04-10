@@ -14,5 +14,6 @@ fn main() {
     // demo::string::run();
     // demo::hash_map::run();
     // demo::error_handling::run();
-    demo::generic::run();
+    // demo::generic::run();
+    demo::r#trait::run();
 }

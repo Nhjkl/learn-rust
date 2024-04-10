@@ -161,17 +161,17 @@ fn generic_method() {
         // 接着将泛型定义替换为这两个具体的定义。
         // 编译器生成的单态化版本的代码看起来像这样，并包含将泛型 Option<T>
         // 替换为编译器创建的具体定义后的用例代码：
-        enum Option_i32 {
-            Some(i32),
-            None,
-        }
-
-        enum Option_f64 {
-            Some(f64),
-            None,
-        }
-
-        let integer = Option_i32::Some(5);
-        let float = Option_f64::Some(5.0);
+        // enum Option_i32 {
+        //     Some(i32),
+        //     None,
+        // }
+        //
+        // enum Option_f64 {
+        //     Some(f64),
+        //     None,
+        // }
+        //
+        // let integer = Option_i32::Some(5);
+        // let float = Option_f64::Some(5.0);
     }
 }

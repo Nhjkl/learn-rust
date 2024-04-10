@@ -11,3 +11,4 @@ pub mod if_let;
 pub mod owenrship;
 pub mod string;
 pub mod r#struct;
+pub mod r#trait;
