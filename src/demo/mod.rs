@@ -8,6 +8,7 @@ pub mod functions;
 pub mod generic;
 pub mod hash_map;
 pub mod if_let;
+pub mod lifetimes;
 pub mod owenrship;
 pub mod string;
 pub mod r#struct;
