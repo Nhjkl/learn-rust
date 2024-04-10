@@ -11,5 +11,6 @@ fn main() {
     // demo::enums_option::run();
     // demo::if_let::run();
     // demo::collection_vector::run();
-    demo::string::run();
+    // demo::string::run();
+    demo::hash_map::run();
 }
