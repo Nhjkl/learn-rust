@@ -3,6 +3,7 @@ pub mod control_flow;
 pub mod data_type;
 pub mod enums;
 pub mod enums_option;
+pub mod error_handling;
 pub mod functions;
 pub mod hash_map;
 pub mod if_let;
