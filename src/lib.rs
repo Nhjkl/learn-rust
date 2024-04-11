@@ -1,3 +1,5 @@
+//! //!描述外部条目，对描述crate很有用
+
 pub fn adds_two(a: i32) -> i32 {
     internal_adder(a, 2)
 }
