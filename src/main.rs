@@ -16,5 +16,6 @@ fn main() {
     // demo::error_handling::run();
     // demo::generic::run();
     // demo::r#trait::run();
-    demo::lifetimes::run();
+    // demo::lifetimes::run();
+    demo::tests::run();
 }

@@ -12,4 +12,5 @@ pub mod lifetimes;
 pub mod owenrship;
 pub mod string;
 pub mod r#struct;
+pub mod tests;
 pub mod r#trait;
