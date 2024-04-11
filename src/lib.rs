@@ -7,7 +7,11 @@ fn internal_adder(a: i32, b: i32) -> i32 {
 }
 
 pub mod mgrep {
-    use std::{env, error::Error, fs};
+    use std::{
+        env::{self, Args},
+        error::Error,
+        fs,
+    };
 
     #[derive(Debug)]
     pub struct Config {
@@ -17,18 +21,27 @@ pub mod mgrep {
     }
 
     impl Config {
-        pub fn new(args: &[String]) -> Result<Config, &str> {
+        pub fn new(mut args: Args) -> Result<Config, &'static str> {
             if args.len() < 3 {
                 return Err("Not enough arguments");
             }
-            let query = &args[1];
-            let filename = &args[2];
+            args.next();
+
+            let query = match args.next() {
+                Some(arg) => arg,
+                None => return Err("Didn't get a query string"),
+            };
+
+            let filename = match args.next() {
+                Some(arg) => arg,
+                None => return Err("Didn't get a file name"),
+            };
 
             let case_sensitive = env::var("CASE_INSENSITIVE").is_err();
 
             Ok(Config {
-                query: query.to_string(),
-                filename: filename.to_string(),
+                query,
+                filename,
                 case_sensitive,
             })
         }
@@ -51,28 +64,14 @@ pub mod mgrep {
     }
 
     pub fn search<'a>(query: &'a str, contents: &'a str) -> Vec<&'a str> {
-        let mut matchs = Vec::new();
-
-        for line in contents.lines() {
-            if line.contains(query) {
-                matchs.push(line);
-            }
-        }
-
-        matchs
+        contents.lines().filter(|x| x.contains(query)).collect()
     }
 
     pub fn search_case_insensitive<'a>(query: &'a str, contents: &'a str) -> Vec<&'a str> {
-        let mut matchs = Vec::new();
-
         let query = query.to_lowercase();
-
-        for line in contents.lines() {
-            if line.to_lowercase().contains(&query) {
-                matchs.push(line);
-            }
-        }
-
-        matchs
+        contents
+            .lines()
+            .filter(|x| x.to_lowercase().contains(&query))
+            .collect()
     }
 }

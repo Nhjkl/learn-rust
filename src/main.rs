@@ -18,5 +18,6 @@ fn main() {
     // demo::r#trait::run();
     // demo::lifetimes::run();
     // demo::tests::run();
-    demo::closures::run();
+    // demo::closures::run();
+    demo::iterator::run();
 }
