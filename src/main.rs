@@ -1,4 +1,4 @@
-#![allow(unused)]
+#![allow(unused, clippy::collapsible_else_if)]
 mod demo;
 mod utils;
 
@@ -17,5 +17,6 @@ fn main() {
     // demo::generic::run();
     // demo::r#trait::run();
     // demo::lifetimes::run();
-    demo::tests::run();
+    // demo::tests::run();
+    demo::closures::run();
 }
