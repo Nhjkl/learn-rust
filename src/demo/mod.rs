@@ -1,3 +1,4 @@
+pub mod r#box;
 pub mod closures;
 pub mod collection_vector;
 pub mod control_flow;
