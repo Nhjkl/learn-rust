@@ -15,6 +15,7 @@ pub mod if_let;
 pub mod iterator;
 pub mod lifetimes;
 pub mod owenrship;
+pub mod rc;
 pub mod string;
 pub mod r#struct;
 pub mod tests;
