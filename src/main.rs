@@ -20,5 +20,6 @@ fn main() {
     // demo::tests::run();
     // demo::closures::run();
     // demo::iterator::run();
-    demo::r#box::run();
+    // demo::r#box::run();
+    demo::deref::run();
 }

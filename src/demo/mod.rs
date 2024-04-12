@@ -3,6 +3,7 @@ pub mod closures;
 pub mod collection_vector;
 pub mod control_flow;
 pub mod data_type;
+pub mod deref;
 pub mod enums;
 pub mod enums_option;
 pub mod error_handling;
