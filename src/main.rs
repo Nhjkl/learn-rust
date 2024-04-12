@@ -21,5 +21,6 @@ fn main() {
     // demo::closures::run();
     // demo::iterator::run();
     // demo::r#box::run();
-    demo::deref::run();
+    // demo::deref::run();
+    demo::drop_trait::run();
 }
