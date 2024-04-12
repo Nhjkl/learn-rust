@@ -16,6 +16,7 @@ pub mod iterator;
 pub mod lifetimes;
 pub mod owenrship;
 pub mod rc;
+pub mod refcell;
 pub mod string;
 pub mod r#struct;
 pub mod tests;

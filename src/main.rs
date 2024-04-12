@@ -23,5 +23,6 @@ fn main() {
     // demo::r#box::run();
     // demo::deref::run();
     // demo::drop_trait::run();
-    demo::rc::run();
+    // demo::rc::run();
+    demo::refcell::run();
 }
