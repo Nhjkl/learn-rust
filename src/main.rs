@@ -25,5 +25,6 @@ fn main() {
     // demo::drop_trait::run();
     // demo::rc::run();
     // demo::refcell::run();
-    demo::leak_memory::run();
+    // demo::leak_memory::run();
+    demo::concurrency::run();
 }

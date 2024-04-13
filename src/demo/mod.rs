@@ -1,6 +1,7 @@
 pub mod r#box;
 pub mod closures;
 pub mod collection_vector;
+pub mod concurrency;
 pub mod control_flow;
 pub mod data_type;
 pub mod deref;
