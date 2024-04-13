@@ -13,6 +13,7 @@ pub mod generic;
 pub mod hash_map;
 pub mod if_let;
 pub mod iterator;
+pub mod leak_memory;
 pub mod lifetimes;
 pub mod owenrship;
 pub mod rc;

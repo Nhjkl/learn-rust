@@ -24,5 +24,6 @@ fn main() {
     // demo::deref::run();
     // demo::drop_trait::run();
     // demo::rc::run();
-    demo::refcell::run();
+    // demo::refcell::run();
+    demo::leak_memory::run();
 }
