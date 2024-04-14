@@ -18,6 +18,7 @@ pub mod if_let;
 pub mod iterator;
 pub mod leak_memory;
 pub mod lifetimes;
+pub mod r#macro;
 pub mod object;
 pub mod owenrship;
 pub mod patterns_matching;
