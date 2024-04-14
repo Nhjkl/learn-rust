@@ -18,6 +18,7 @@ pub mod leak_memory;
 pub mod lifetimes;
 pub mod object;
 pub mod owenrship;
+pub mod patterns_matching;
 pub mod rc;
 pub mod refcell;
 pub mod string;
