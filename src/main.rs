@@ -26,5 +26,6 @@ fn main() {
     // demo::rc::run();
     // demo::refcell::run();
     // demo::leak_memory::run();
-    demo::concurrency::run();
+    // demo::concurrency::run();
+    demo::object::run();
 }
