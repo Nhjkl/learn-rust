@@ -1,4 +1,5 @@
 pub mod advanced;
+pub mod advanced_traits;
 pub mod r#box;
 pub mod closures;
 pub mod collection_vector;

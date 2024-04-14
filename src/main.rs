@@ -29,5 +29,6 @@ fn main() {
     // demo::concurrency::run();
     // demo::object::run();
     // demo::patterns_matching::run();
-    demo::advanced::run();
+    // demo::advanced::run();
+    demo::advanced_traits::run();
 }
