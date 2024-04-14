@@ -28,5 +28,6 @@ fn main() {
     // demo::leak_memory::run();
     // demo::concurrency::run();
     // demo::object::run();
-    demo::patterns_matching::run();
+    // demo::patterns_matching::run();
+    demo::advanced::run();
 }

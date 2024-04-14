@@ -17,7 +17,7 @@ path = "src/minigrep.rs"
 colored = "2.1.0"
 
 [profile.release]
-panic = "abort" # 如果发生 panic，那么程序就会终止, 留给操作系统清理内存
+# panic = "abort" # 如果发生 panic，那么程序就会终止, 留给操作系统清理内存
 opt-level = 3
 
 [profile.dev]
