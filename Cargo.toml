@@ -11,6 +11,10 @@ path = "src/main.rs"
 name = "minigrep"
 path = "src/minigrep.rs"
 
+[[bin]]
+name = "webserver"
+path = "src/webserver.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
