@@ -1,3 +1,4 @@
+// The Rust Programming Language
 pub mod advanced;
 pub mod advanced_traits;
 pub mod r#box;
@@ -28,3 +29,7 @@ pub mod string;
 pub mod r#struct;
 pub mod tests;
 pub mod r#trait;
+
+// Rust by Example
+pub mod comments;
+pub mod formatted_print;

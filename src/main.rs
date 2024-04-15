@@ -3,6 +3,8 @@ mod demo;
 mod utils;
 
 fn main() {
+    // The Rust Programming Language
+
     // demo::data_type::run();
     // demo::functions::run();
     // demo::owenrship::run();
@@ -31,5 +33,9 @@ fn main() {
     // demo::patterns_matching::run();
     // demo::advanced::run();
     // demo::advanced_traits::run();
-    demo::r#macro::run();
+    // demo::r#macro::run();
+
+    // Rust by Example
+    // demo::comments::run();
+    demo::formatted_print::run();
 }
